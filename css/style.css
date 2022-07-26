@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,500&family=Titillium+Web:wght@600&display=swap');
+
+/* selector universal*/
+*{
+	padding: 0;
+	margin: 0;
+}*/
+
+
+
+/* selectores de etiqueta */
+
+html{
+	font-size: 62.5%;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+}
+h2{
+	 font-family: 'Titillium Web', sans-serif;
+}
+
+p{
+	font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    color: grey;
+    font-weight: 400;
+}
+
+h1{
+	color: black;
+}
+
+h2{
+	color:##000000;
+}
+
+h3{
+	color: #5A5AB4;
+}
+nav{
+	background-color: rgba(3, 20, 100, 0.4);
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+
+   nav ul{
+	    display: inline;
+}
+      nav ul li{
+      	list-style: none;
+      	display: inline-block;
+      	margin: 0 20px;
+        padding: 0 5px;
+      }
+
+        nav ul li a:hover{
+      	font-weight: ;
+      	display: block;
+      	color: black;
+      }
+        nav ul li a{
+      	text-decoration: none;
+      	font-size: 2rem;
+      	color: white;
+      	font-family: 'Roboto Flex', sans-serif; 
+       }
+
+      body{
+      	background-image: url(../img/foondo.png);
+        background-attachment: fixed;
+        overflow-x: hidden;
+        overflow-y: ;
+        box-sizing: border-box;
+      }
+      
+      .pie{
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      .pie__icon--sm{
+        width: 60px;
+      }
+
+      .pie__titulo--md{
+        display: inline;
+        font-size: 2rem;
+      }
+
+      .seccion__img--md{
+      	width: 500px;
+      }
+
+
+
+/*Encabezados BEM*/
+
+      .encabezado__box--white{
+      	background-color: white;
+      	text-align: center;
+      	padding: 5px 0;
+      }
+      .encabezado__img--fluid{
+      	width: 100%;
+      }
+   
+      .nosotros__titulo--xxl{
+
+      }
+
+      .nosotros__titulo--xl{
+
+      }
+      
+      .nosotros__titulo--md{
+      	width: 80%;
+	    height: auto;
+	    padding: 50px;
+	/*margin: 50px 100px;*/
+	    margin: 50px auto;
+	    border: dotted rgba(90, 90, 180, 0.3) 10px; 
+	    overflow: auto;
+      }
+
+      .nosotros__index--sm{
+        width: 15%;
+	    height: auto;
+	    padding: 30px;
+	/*margin: 50px 100px;*/
+	    margin: 10px auto;
+	    border: dotted rgba(90, 90, 180, 0.3) 10px; 
+	    overflow: auto;
+      }
+      .nosotros__index--md{
+      	width: 90%;
+      	height: auto;
+      	padding:60px ;
+      	margin: 30px auto;
+      	border: 20px dotted rgba(93, 66, 099, 1.0);
+      	overflow: auto;
+      }
+
+
+
+/* selectores de clase */
+
+.text-black{
+	color: black;
+}
+
+.text-center{
+	text-align: center;
+	font-size: 3rem;
+	box-sizing: border-box;
+}
+
+.text-right{
+    text-align: right;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-bold{
+	font-weight: 700;
+}
+
+.bg-light{
+	background-color: #EBE7E7;
+}
+.bg-violet{
+	background-color: #BEADC7;
+}
+.bg-white{
+	background-color: #D6E9EE;
+}
+
+/* selectores de ID */
+#{
+	color: darkviolet;
+}
